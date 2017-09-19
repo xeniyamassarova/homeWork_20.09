@@ -1,0 +1,52 @@
+.chat {
+    width: 800px;
+    height: 600px;
+    border: 1px solid black;
+    margin: 10% auto;
+}
+
+.header {
+    height: 70px;
+    border-bottom: 1px solid black;
+}
+
+.topicname {
+    margin: 0 0 0 0;
+}
+.container {
+    width: 800px;
+    height: 530px;
+    overflow: auto;
+    
+}
+
+#table-scroll {
+    height: 530px;
+    overflow: auto;
+}
+#table-wrapper table {
+    width: 100%;
+}
+
+.cell {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.krujochek {
+border: 1px solid black; 
+border-radius: 50%;
+width: 50px;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.message {
+    min-height: 100px;
+}
