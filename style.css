@@ -17,6 +17,11 @@ body {
     height: 70px;
     border-bottom: 1px solid black;
    padding-left:  20px;
+    display: flex;
+    lex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    
 
 }
 
@@ -31,27 +36,9 @@ body {
     width: 800px;
     height: 530px;
     overflow: auto;
-    
+
 }
 
-#table-scroll {
-    height: 530px;
-    overflow: auto;
-}
-#table-wrapper table {
-    width: 100%;
-}
-
-table td {
-    border-right: 1px solid black;
-}
-table {
-    border-collapse: collapse;
-}
-
-table tr td:first-child{
-    background: #cc0052;
-}
 .cell {
     width: 150px;
     height: 100px;
@@ -60,6 +47,7 @@ table tr td:first-child{
     justify-content: flex-start;
     align-items: center;
     padding-left: 10px;
+    
 }
 
 .bigblock {
@@ -67,7 +55,9 @@ table tr td:first-child{
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
-      margin: auto 10px 20px 10px;
+    margin: 10px 10px 10px 10px;
+    padding: 0 10px 0 10px;
+    border-left: 1px solid black;
 }
 
 .krujochek {
@@ -89,3 +79,21 @@ box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
 
 }
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+
+
+.close {
+  color: #777;
+  font: 30px/100% arial, sans-serif;
+
+}
+.close:after {
+  content: '✖'; /* UTF-8 symbol */
+}
+
